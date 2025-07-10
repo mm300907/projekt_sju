@@ -21,4 +21,9 @@ jobs:
         uses: actions/configure-pages@v4
 
       - name: Upload static files
-        uses: actions/upload-pages-a
+        uses: actions/upload-pages-artifact@v2
+        with:
+          path: './doc'
+
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v3
