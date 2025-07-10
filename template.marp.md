@@ -88,7 +88,7 @@ if __name__ == "__main__":
 
 ---
 # Etap 5: Diagram Mermaid
-![bg right fit](D:\lg\projekt_sju-main\projekt_sju-main\doc\Mermaid.png)
+![bg right fit, h:85%](doc\Mermaid.png)
 
 ---
 # Etap 6: Praca z notatnikiem Jupyter
